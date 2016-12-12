@@ -84,7 +84,7 @@ FX100 achieves 130 [us] at 256 processes (114 [s] in FX10).
 
 \begin{figure}
 \begin{center}
- \includegraphics[width=0.7\textwidth,natwidth=557,natheight=377]{mpich-winlock.png}
+ \includegraphics[width=0.7\textwidth,natwidth=557,natheight=377]{research/ishikawa/mpich-winlock.png}
 \end{center}
   \caption{Benchmark Result of MPI\_Win\_lock / unlock with empty critical section}
   \locallabel{fig:prdma}
@@ -95,7 +95,7 @@ FX100 achieves 130 [us] at 256 processes (114 [s] in FX10).
 %------------------------------------------------------------------------------
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.8\textwidth,natwidth=1127,natheight=208]{mpich1.png}
+\includegraphics[width=0.8\textwidth,natwidth=1127,natheight=208]{research/ishikawa/mpich1.png}
 \end{center}
  \caption{Relationships between applications, communication libraries and network driver}
  \locallabel{fig:mpich1}
@@ -114,7 +114,7 @@ communication functions to applications via a high-level interface.
 
 \begin{figure}
 \begin{center}
-\includegraphics[scale=0.8,natwidth=703,natheight=276]{mpich2.png}
+\includegraphics[scale=0.8,natwidth=703,natheight=276]{research/ishikawa/mpich2.png}
 \end{center}
  \caption{Communication latency in all-to-one and one-to-all communication patterns}
  \locallabel{fig:mpich2}
@@ -147,7 +147,7 @@ reduced by up to 19\% and 13\%, respectively, as shown in Figure
 \begin{table}
  \caption{Memory consumption per compute node of MPICH and LLC}
          \locallabel{tab:mpich}
-%% \includegraphics[natwidth=702,natheight=220]{mpich3.png}
+%% \includegraphics[natwidth=702,natheight=220]{research/ishikawa/mpich3.png}
 \begin{center}
 \begin{tabular}{l|r|r} \hline
 Software object type &           Existing Technique (MiB) &      Proposed (MiB) \\ \hline
@@ -185,11 +185,11 @@ to the existing technique.
 %------------------------------------------------------------------------------
 \begin{figure}
 \begin{center}
- \includegraphics[width=0.5\textwidth,natwidth=204,natheight=271]{earth1.png}\\
+ \includegraphics[width=0.5\textwidth,natwidth=204,natheight=271]{research/ishikawa/earth1.png}\\
 (a) I/O throttling approach
 \end{center}
 \begin{center}
- \includegraphics[width=0.7\textwidth,natwidth=335,natheight=158]{earth2.png}\\
+ \includegraphics[width=0.7\textwidth,natwidth=335,natheight=158]{research/ishikawa/earth2.png}\\
 (b) associated stepwise data exchanges
 \end{center}
   \caption{Optimization Techniques in EARTH} \locallabel{fig:earth1}
@@ -235,7 +235,7 @@ throughput values relative to the number of MPI processes.
 
 \begin{figure}
 \begin{center}
- \includegraphics[natwidth=370,natheight=264]{earth3.png}
+ \includegraphics[natwidth=370,natheight=264]{research/ishikawa/earth3.png}
 \end{center}
   \caption{I/O throughput of collective write}
   \locallabel{fig:earth2}
@@ -286,7 +286,7 @@ FY2015, proposed and developed PVAS was ported to McKernel.
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.7\textwidth, natwidth=678,natheight=391]{pvas.png}
+\includegraphics[width=0.7\textwidth, natwidth=678,natheight=391]{research/ishikawa/pvas.png}
 \end{center}
  \caption{Partitioned Virtual Address Space}\locallabel{fig:pvas}
 \end{figure}
@@ -326,7 +326,7 @@ those of ULPs.
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.8\textwidth,natwidth=1040,natheight=506] {pvas-contextswitch.png}
+\includegraphics[width=0.8\textwidth,natwidth=1040,natheight=506] {research/ishikawa/pvas-contextswitch.png}
 \end{center}
  \caption{Context Switching Time (KLP, KLT and ULP)}\locallabel{fig:pvas-contextswitch}
 \end{figure}
@@ -358,7 +358,7 @@ minimizes the degradation of communication performance.
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.7\textwidth,natwidth=373,natheight=215] {resilience1.png}
+\includegraphics[width=0.7\textwidth,natwidth=373,natheight=215] {research/ishikawa/resilience1.png}
 \end{center}
  \caption{Message collisions by substituting a failed node (5P-stencil)}\locallabel{fig:resilience1}
 \end{figure}
@@ -369,7 +369,7 @@ performance(Figure \localref{fig:resilience1})\cite{hori2015}.
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.7\textwidth,natwidth=958,natheight=604] {resilience2.png}
+\includegraphics[width=0.7\textwidth,natwidth=958,natheight=604] {research/ishikawa/resilience2.png}
 \end{center}
  \caption{Proposed Three Failed Node Substitution Methods}\locallabel{fig:resilience2}
 \end{figure}
@@ -390,7 +390,7 @@ noted.
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.8\textwidth,natwidth=628,natheight=347] {resilience3.png}
+\includegraphics[width=0.8\textwidth,natwidth=628,natheight=347] {research/ishikawa/resilience3.png}
 \end{center}
  \caption{Communication Performance Degradation by Using Spare Nodes 
 the K computer (12x12x12)}\locallabel{fig:resilience3}
@@ -398,7 +398,7 @@ the K computer (12x12x12)}\locallabel{fig:resilience3}
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.8\textwidth,natwidth=904,natheight=499] {resilience4.png}
+\includegraphics[width=0.8\textwidth,natwidth=904,natheight=499] {research/ishikawa/resilience4.png}
 \end{center}
  \caption{Communication Performance Degradation by Using Spare Nodes 
 the K computer (12x12x12)}\locallabel{fig:resilience4}
@@ -430,7 +430,7 @@ cases. Thus, the massive power of the K computer is needed.
 
 \begin{figure}
 \begin{center}
- \includegraphics[width=0.7\textwidth,natwidth=1013,natheight=534] {carp1.png}
+ \includegraphics[width=0.7\textwidth,natwidth=1013,natheight=534] {research/ishikawa/carp1.png}
 \end{center}
   \caption{Block diagram of the procedure running on the K computer}\locallabel{fig:carp1}
 \end{figure}
@@ -445,7 +445,7 @@ possible combinations of representative images and rest of the images.
 
 \begin{figure}
 \begin{center}
- \includegraphics[width=0.7\textwidth,natwidth=523,natheight=316] {carp3.png}
+ \includegraphics[width=0.7\textwidth,natwidth=523,natheight=316] {research/ishikawa/carp3.png}
 \end{center}
   \caption{I/O minimization and load balancing}\locallabel{fig:carp3}
 \end{figure}
