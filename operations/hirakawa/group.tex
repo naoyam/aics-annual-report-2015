@@ -99,9 +99,9 @@ throughput performance. The HPCI system monitoring has the following duties:
 \begin{itemize}
   \item To investigate the causes of and response measures to technical problems that occur during the operation of the HPCI system.
   \item To research improvements in software related to the operation of the overall HPCI system.
-  \item To operate and maintain the HPCI shared storage site (the West site);
-  \item To operate and maintain the management of the Login Gateway and the HPCI IdP of AICS (one of the HPCI system provider);
-  \item To develop the HPCI online application system;
+  \item To operate and maintain the HPCI shared storage site (the West site).
+  \item To operate and maintain the management of the Login Gateway and the HPCI IdP of AICS (one of the HPCI system provider).
+  \item To develop the HPCI online application system.
   \item To screen institutions seeking to participate in the shared operation (i.e., seeking to provide computing resources to the HPCI system) to check whether they satisfy the technical requirements.
 \end{itemize}
 
@@ -157,28 +157,28 @@ HPCI-SS file usage is increasing, the disk usage is decreasing. This is the resu
 
 %\begin{figure}[h]
 \begin{figure}
- \begin{center}
-  \begin{tabular}{c c}
-
-    \begin{minipage} {0.5\hsize}
+% \begin{center}
+%  \begin{tabular}{c c}
+%
+    \begin{minipage} {0.49\hsize}
      \begin{center}
       \includegraphics[clip, height=6cm, width=7cm] {./operations/hirakawa/fig/SS-DiskUsage.png}
       \caption{HPCI Shared Storage disk usage.}
       \locallabel{fig:ss-diskusage}
-      \hspace{1.6cm}
+%      \hspace{1.6cm}
      \end{center}
     \end{minipage}
-
-    \begin{minipage} {0.5\hsize}
+%
+    \begin{minipage} {0.49\hsize}
      \begin{center}
       \includegraphics[clip, height=6cm, width=7cm] {./operations/hirakawa/fig/SS-FileUsage.png}
       \caption{HPCI Shared Storage file usage.}
       \locallabel{fig:ss-fileusage}
-      \hspace{1.6cm}
+%      \hspace{1.6cm}
      \end{center}
     \end{minipage}
-   \end{tabular}
-  \end{center}
+%   \end{tabular}
+%  \end{center}
  \end{figure}
 
 %%%%%%%%%%
@@ -263,70 +263,78 @@ Currently, the number of files smaller than 100 MB occupy 9.89 \% of the archive
 
 %%%%%%%%%%%%%%%%%% HPCI Archive Stats%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[h]
- \begin{center}
-  \begin{tabular}{c}
-
-    \begin{minipage} {0.33\hsize}
+% \begin{center}
+%  \begin{tabular}{c}
+%
+%    \begin{minipage} {0.33\hsize}
+    \begin{minipage} {0.30\hsize}
      \begin{center}
-      \includegraphics[clip,height=5cm, width=5cm]  {operations/hirakawa/fig/ArchiveUsage.png}
+%      \includegraphics[clip,height=4.8cm, width=4.8cm]  {operations/hirakawa/fig/ArchiveUsage.png}
+      \includegraphics[clip,height=1.0\hsize, width=1.0\hsize]  {operations/hirakawa/fig/ArchiveUsage.png}
       \caption{Usage of the HPCI Archive System.}
       \locallabel{fig:ar-usage}
 %      \hspace{1cm}
      \end{center}
     \end{minipage}
-
-    \hspace{0.4cm}
-
-     \begin{minipage} {0.33\hsize}
+%
+    \hspace{0.3cm}
+%
+%     \begin{minipage} {0.33\hsize}
+     \begin{minipage} {0.30\hsize}
      \begin{center}
-     \includegraphics[clip, height=5cm, width=5cm]  {operations/hirakawa/fig/ArchiveFileNum.png}
+%     \includegraphics[clip, height=4.8cm, width=4.8cm]  {operations/hirakawa/fig/ArchiveFileNum.png}
+     \includegraphics[clip, height=1.0\hsize, width=1.0\hsize]  {operations/hirakawa/fig/ArchiveFileNum.png}
       \caption{Number of HPCI Archive System files.}
       \locallabel{fig:ar-counts}
 %      \hspace{1cm}
      \end{center}
     \end{minipage}
-
-   \hspace{0.4cm}
-
-    \begin{minipage} {0.33\hsize}
+%
+   \hspace{0.3cm}
+%
+%    \begin{minipage} {0.33\hsize}
+    \begin{minipage} {0.30\hsize}
      \begin{center}
-      \includegraphics[clip, height=5cm, width=5cm]  {operations/hirakawa/fig/ArchiveAvgSize.png}
+%      \includegraphics[clip, height=4.8cm, width=4.8cm]  {operations/hirakawa/fig/ArchiveAvgSize.png}
+      \includegraphics[clip, height=1.0\hsize ,width=1.0\hsize]  {operations/hirakawa/fig/ArchiveAvgSize.png}
       \caption{Average file size in the HPCI Archive System.}
       \locallabel{fig:ar-avgsize}
 %      \hspace{1cm}
      \end{center}
     \end{minipage}
-
-  \end{tabular}
- \end{center}
+%
+%  \end{tabular}
+% \end{center}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%% Distribution Map %%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[h]
- \begin{center}
-  \begin{tabular}{c}
-
-    \begin{minipage} {0.5\hsize}
+% \begin{center}
+%  \begin{tabular}{c}
+%
+    \begin{minipage} {0.46\hsize}
      \begin{center}
-      \includegraphics[clip, height=7cm, keepaspectratio] {operations/hirakawa/fig/ArchiveFileSizeDistribution.png}
+%      \includegraphics[clip, height=7cm, keepaspectratio] {operations/hirakawa/fig/ArchiveFileSizeDistribution.png}
+      \includegraphics[clip, width=1.0\hsize, keepaspectratio] {operations/hirakawa/fig/ArchiveFileSizeDistribution.png}
       \caption{File size distribution in the HPCI Archive System.}
       \locallabel{fig:ar-SizeDistribution}
       \hspace{1cm}
      \end{center}
     \end{minipage}
-
+%
     \hspace{0.6cm}
-
-    \begin{minipage} {0.5\hsize}
+%
+    \begin{minipage} {0.46\hsize}
      \begin{center}
-      \includegraphics[clip, height=7cm, keepaspectratio] {operations/hirakawa/fig/ArchiveFileCountDistribution.png}
+%      \includegraphics[clip, height=7cm, keepaspectratio] {operations/hirakawa/fig/ArchiveFileCountDistribution.png}
+      \includegraphics[clip, width=1.0\hsize, keepaspectratio] {operations/hirakawa/fig/ArchiveFileCountDistribution.png}
       \caption{File count distribution in the HPCI Archive System.}
       \locallabel{fig:ar-CountDistribution}
       \hspace{1cm}
      \end{center}
     \end{minipage}
-   \end{tabular}
-  \end{center}
+%   \end{tabular}
+%  \end{center}
  \end{figure}
 %%%%%%%%%%%%%%%%%% Map %%%%%%%%%%%%%
 
@@ -342,29 +350,29 @@ each project and Figure \localref{fig:DAS-JobConsumptionRate} shows the job cons
 DAW was used for a total of 163\% of the allocated node-time in FY2015.
 
 \begin{figure}[h]
- \begin{center}
-  \begin{tabular}{c}
-
-    \begin{minipage} {0.5\hsize}
+% \begin{center}
+%  \begin{tabular}{c}
+%
+    \begin{minipage} {0.49\hsize}
      \begin{center}
       \includegraphics[clip, height=5cm, width=6.5cm] {operations/hirakawa/fig/DAS-Overview.png}
       \caption{The components of DAW.}
       \locallabel{fig:DAW-Construction}
-      \hspace{1cm}
+%      \hspace{1cm}
      \end{center}
     \end{minipage}
-
-    \begin{minipage} {0.5\hsize}
+%
+    \begin{minipage} {0.49\hsize}
      \begin{center}
       \includegraphics[clip, height=5cm, width=6.5cm] {operations/hirakawa/fig/DAS-JobExecutionTime.png}
       \caption{The monthly execution node-time for DAW.}
       \locallabel{fig:DAS-JobExecutionTime}
-      \hspace{1cm}
+%      \hspace{1cm}
      \end{center}
     \end{minipage}
-
-  \end{tabular}
- \end{center}
+%
+%  \end{tabular}
+% \end{center}
 \end{figure}
 
 In FY2015, two HPCI research projects were chosen to use DAW, and the total allocated node-time %
@@ -379,29 +387,29 @@ Figure \localref{fig:DAS-Power} shows the DAW electric power consumption; the av
 in normal operation and 7876 kwh in idling stop operation. As a result of the idling stop operation, we achieved an energy saving of 55\%.
 
 \begin{figure}[h]
- \begin{center}
-  \begin{tabular}{c}
-
-    \begin{minipage} {0.5\hsize}
+% \begin{center}
+%  \begin{tabular}{c}
+%
+    \begin{minipage} {0.49\hsize}
      \begin{center}
       \includegraphics[clip, height=6.5cm, width=6cm] {operations/hirakawa/fig/DAS-JobConsumptionRate.png}
       \caption{DAW job consumption rate.}
       \locallabel{fig:DAS-JobConsumptionRate}
-      \hspace{1cm}
+%      \hspace{1cm}
      \end{center}
     \end{minipage}
-
-    \begin{minipage} {0.5\hsize}
+%
+    \begin{minipage} {0.49\hsize}
      \begin{center}
       \includegraphics[clip, height=6.5cm, width=6cm] {operations/hirakawa/fig/DAS-Energy.png}
       \caption{DAW electric power consumption.}
       \locallabel{fig:DAS-Power}
-      \hspace{1cm}
+%      \hspace{1cm}
      \end{center}
     \end{minipage}
-
-  \end{tabular}
- \end{center}
+%
+%  \end{tabular}
+% \end{center}
 \end{figure}
 
 \section{Schedule and Future Plan}
