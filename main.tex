@@ -42,17 +42,15 @@
   \begin{CJK}{UTF8}{ipxm}#1\end{CJK}}
 %%%
 
-
-\title{ACIS Annual Report FY2015}
-
 \begin{document}
 
-%\layout
+\title{\Huge \bf AICS Annual Report}
 
-\date{}
+\date{\Huge \bf FY2015}
 
 \maketitle
-\tableofcontents
+
+\renewcommand{\thepage}{\roman{page}}
 
 \input{preface/preface}
 \addcontentsline{toc}{chapter}{Preface}
@@ -60,6 +58,12 @@
 %\addcontentsline{toc}{chapter}{Mission and Overview}
 \input{organization/organization}
 \addcontentsline{toc}{chapter}{Organization}
+
+\tableofcontents
+
+\clearpage
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
 
 %\include{sample_division/sample_group/group}
 
